@@ -42,4 +42,4 @@ jobs:
     - name: Docker Push
       run: |
         docker push saan1998/docker-graphql:$NEW_VERSION
-        docker push saan1998/docker-graphql:l$NEW_VERSION
+        docker push saan1998/docker-graphql:$NEW_VERSION
